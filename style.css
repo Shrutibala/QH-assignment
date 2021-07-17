@@ -148,7 +148,12 @@ p
 /*for the music section*/
 .music-section
 {
-    background-color:white;
+    background-image:url("images/lyc2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	text-align: right;
+	padding-right:50px;
 }
 
 /* Slideshow*/
@@ -163,18 +168,17 @@ img
 .Slide
 {
     display:none;
-	
+
 }
 .text
 {
-    color:#333;
+    color:white;
     font-size: 40px;
-    padding: 8px 12px;
+    padding: 8px 2px; 
     position: absolute;
-    bottom: 0px;
+    bottom: 0px;	
     width: 100%;
-	
-}
+}	
 .dot 
 {
     height: 15px;
@@ -265,8 +269,6 @@ td img
 	padding: 14px 15px;
 	text-decoration: none;	
     font-size:1.5vw;
-}
-
-            
+}         
             
 
